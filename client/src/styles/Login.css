@@ -1,0 +1,64 @@
+.Login {
+  width: 100%;
+  height: 800px;
+  background-color: rgb(33, 33, 33);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Login_in {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  width: 350px;
+  height: 500px;
+  border-radius: 20px;
+  background-color: white;
+  border: 4px solid teal;
+}
+
+.Login_sign_in {
+  color: teal;
+  font-size: 30px;
+  font-weight: 600;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.Login_input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Login_input > input {
+  padding-left: 10px;
+  width: 250px;
+  height: 35px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  border: 2px solid gainsboro;
+  outline: none;
+}
+
+.Login_input > input:focus {
+  box-shadow: 0 0 0 2px teal;
+  border: 2px solid rgba(255, 255, 255, 0);
+}
+
+.Login_input > button {
+  margin-top: 20px;
+  width: 250px;
+  height: 35px;
+  border-radius: 30px;
+  color: white;
+  background-color: teal;
+  border: none;
+}
+
+.Login_input > button:active {
+  transform: scale(0.98);
+}
